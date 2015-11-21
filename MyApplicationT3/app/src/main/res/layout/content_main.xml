@@ -59,7 +59,7 @@
             android:text="mr"
             android:id="@+id/btnMR" />
     </LinearLayout>
-    <!-- 第2行线性布局容器  -->
+    
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -90,7 +90,7 @@
             android:text="back"
             android:id="@+id/btnBak" />
     </LinearLayout>
-    <!-- 第3行线性布局容器  -->
+   
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -120,7 +120,7 @@
             android:text="/"
             android:id="@+id/btnDiv" />
     </LinearLayout>
-    <!-- 第4行线性布局容器  -->
+   
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -150,7 +150,7 @@
             android:text="-"
             android:id="@+id/btnSub" />
     </LinearLayout>
-    <!-- 第5行线性布局容器  -->
+    
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -180,18 +180,18 @@
             android:text="+"
             android:id="@+id/btnAdd" />
     </LinearLayout>
-    <!-- 第6、7行线性布局容器，它包含两层，因为存在跨行的按钮“=”  -->
+    
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <!-- 这里使用垂直对齐方式，因为里面包含两行-->
+       
         <LinearLayout
             android:layout_weight="1"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-            <!-- 第6行线性布局容器(左3列)-->
+           
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -215,7 +215,7 @@
                     android:text="3"
                     android:id="@+id/btn3" />
             </LinearLayout>
-            <!-- 第五行线性布局容器 (右边1列)-->
+            
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -240,7 +240,7 @@
                     android:id="@+id/btndot" />
             </LinearLayout>
         </LinearLayout>
-        <!-- 第六行线性布局容器  -->
+       
         <LinearLayout
             android:layout_weight="3"
             android:layout_width="match_parent"
