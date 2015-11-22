@@ -21,6 +21,5 @@ Calculator
 
 ##Known Unsolved Issues:
 	1.The Edit view have a length limited of a number
-	2.The show window would be changed with the length
-  of a number
+	2.The show window would be changed with the length of a number
 
