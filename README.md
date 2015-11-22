@@ -1,11 +1,13 @@
+Calculator
+=========================================
 
-#This APP developed by Android Studio 
+##This APP developed by Android Studio 
 	Android Studio Version:  1.4.1
 	API verison:             API21 5.0.1
-	Author: Alex
+	Author:                  Alex
 
-#This App is achieved the calculator function.
-	ADD
+##This App is achieved the calculator function.
+	ADD  
 	SUB
 	MUL
 	DIV
@@ -17,7 +19,7 @@
 	M+
 	MS
 
-#Known Unsolved Issue:
+##Known Unsolved Issues:
 	1.The Edit view have a length limited of a number
 	2.The show window would be changed with the length
   of a number
